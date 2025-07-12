@@ -34,8 +34,6 @@ This app was built during a personal 15-day AI sprint to combine LLMs, MongoDB, 
 ---
 
 
----
-
 ## 🛠️ How to Run Locally
 
 ```bash
