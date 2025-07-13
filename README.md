@@ -39,6 +39,7 @@ This app was built during a personal 15-day AI sprint to combine LLMs, MongoDB, 
 ```bash
 git clone https://github.com/TIA1106/moodjournal.git
 cd moodjournal
+npm install dotenv
 npm install
 npm run dev
 
