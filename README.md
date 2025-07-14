@@ -1,9 +1,5 @@
 
----
 
-## 🌙 2. MoodJournal – Mental Health Tracker + AI Therapist
-
-```md
 # 🌙 MoodJournal – Track Your Mood, Talk to AI
 
 MoodJournal is a full-stack mental wellness tracker built with empathy and simplicity. Users can log their mood daily, write reflections, get music recommendations, and even chat with an AI therapist.
