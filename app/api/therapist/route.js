@@ -3,6 +3,11 @@ import { ChatOpenAI } from "@langchain/openai";
 import { HumanMessage, SystemMessage } from "@langchain/core/messages";
 
 export async function POST(req) {
+  if (!process.env.OPENROUTER_API_KEY) {
+  console.warn("⚠️ Missing API key. AI features may not work.");
+  return NextResponse.json({ error: "API key missing. AI temporarily unavailable." }, { status: 500 });
+}
+
   try {
     const { input } = await req.json();
 
